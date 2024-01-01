@@ -10,7 +10,7 @@ import {
   CursorArrowRaysIcon,
   FingerPrintIcon,
   SquaresPlusIcon,
-  XMarkIcon,
+  XMarkIcon,    
 } from "@heroicons/react/24/outline";
 import {
   ChevronDownIcon,
@@ -121,7 +121,7 @@ export default function Header() {
               >
                 <Popover.Panel className="absolute -left-8 top-full z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5">
                   <div className="p-4">
-                    {products.map((item) => (
+                    {products.map((item ) => (
                       <div
                         key={item.name}
                         className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50"
